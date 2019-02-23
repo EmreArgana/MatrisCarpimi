@@ -36,7 +36,7 @@ public class MatrisCarpimi {
             System.out.println("2. Oluşturulan Matris");
             Matris.MatrisYazdir(dizi2, Row2, Col2);
             System.out.println("Sonuç Matrisi");
-            Matris.MatrisYazdir(Matris.MatisCarp(dizi1, dizi2, Row1,Col1, Col2), Row1, Col2);
+            Matris.MatrisYazdir(Matris.MatrisCarp(dizi1, dizi2, Row1,Col1, Col2), Row1, Col2);
         }
         else{
             System.out.println("Matris çarpımının yapılabilmesi için "

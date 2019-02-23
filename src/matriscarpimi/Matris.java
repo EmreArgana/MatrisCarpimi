@@ -27,7 +27,7 @@ public class  Matris{
             }System.out.println("");
         }
     }
-    public static int[][] MatisCarp(int[][] dizi1, int[][] dizi2,int Row1,int Col1, int Col2){
+    public static int[][] MatrisCarp(int[][] dizi1, int[][] dizi2,int Row1,int Col1, int Col2){
         int[][] sonuc= new int[Row1][Col2];
        
         for (int i = 0; i < Row1; i++) {
